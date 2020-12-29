@@ -4,3 +4,9 @@ This chrome extension allows users to keep a todo list for Monday through Friday
 
 ### GOALS
 This is a personal project created with the goals of learning web development and storing data to a users Google account.
+
+### TECHNOLOGY USED
+- HTML
+- CSS
+- Javascript
+- chrome.storage API
