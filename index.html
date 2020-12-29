@@ -1,0 +1,87 @@
+<!-- =============================
+
+  UCONN Homework Sites Launcher
+
+============================== -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+
+        <title>Homework Calendar Extension</title>
+
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="huskyleft">
+                <img src="logos/UCONN Logo.png">
+            </div>
+            <div class="huskyright">
+                <img src="logos/UCONN Logo.png">
+                
+            </div>
+            <h1 class="title">Homework Launcher</h1>
+        </div>
+
+        <p class="note"><b>Quickly access a weekly calander and UConn sites</b></p>
+
+        <div class="calendar">
+            <div class="date">
+                <div class="daytext">MON</div>
+                <input type="text" id="monday" placeholder="Task">
+                <ul id='mondayList'></ul>
+            </div>
+            <div class="date">
+                <div class="daytext">TUE</div>
+                <input type="text" id="tuesday" placeholder="Task">
+                <ul id="tuesdayList"></ul>
+            </div>
+            <div class="date">
+                <div class="daytext">WED</div>
+                <input type="text" id="wednesday" placeholder="Task">
+                <ul id="wednesdayList"></ul>
+            </div>
+            <div class="date">
+                <div class="daytext">THU</div>
+                <input type="text" id="thursday" placeholder="Task">
+                <ul id="thursdayList"></ul>
+            </div>
+            <div class="date">
+                <div class="daytext">FRI</div>
+                <input type="text" id="friday" placeholder="Task">
+                <ul id="fridayList"></ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="sites">
+                <a href="https://learn.uconn.edu/" target="_blank">
+                    <img src="logos/huskyct logo.png">
+                </a>
+            </div>
+            <div class="sites">
+                <a href="https://www.webassign.net/wa-auth/login" target="_blank">
+                    <img src="logos/webassign logo crop.png">
+                </a>
+            </div>
+            <div class="sites">
+                <a href="https://courses.engr.uconn.edu/moodle/" target="_blank">
+                    <img src="logos/moodle logo.jpg">
+                </a>
+            </div>
+            <div class="sites">
+                <a href="https://class.mimir.io/login?" target="_blank">
+                    <img src="logos/mimir logo.png">
+                </a>
+            </div>
+            <button class="reload" id="saveButton">LOAD TASKS</button>
+        </div>        
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

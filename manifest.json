@@ -1,0 +1,15 @@
+{
+  "name": "Homework Launcher",
+  "version": "1.0",
+  "description": "Gives a simple calendar to fill in homework dates along with quick access to common UConn homework sites.",
+  "manifest_version": 2,
+
+  "icons": {"128": "logos/UCONN Logo.png"},
+  "browser_action": {
+      "default_popup": "index.html",
+      "default_icon": "logos/UCONN Logo.png"
+  },
+  "permissions": [
+    "storage"
+  ]
+}

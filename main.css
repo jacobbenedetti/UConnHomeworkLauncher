@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Karla|Viga&display=swap');
+
+html, body {
+    background-color: whitesmoke;
+    margin: 0;
+    min-height: 200px;
+    padding: 0;
+    width: 400px;
+}
+
+.note {
+    color: #656D78;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 7px 0px;
+    font-family: 'Karla', sans-serif;
+}
+
+.calendar {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 7px 0px;
+}
+
+.date {
+    background-color: #35477d;
+    width: 75px;
+    margin: 0px;
+    border: 1px solid white;
+    height: 73px;
+    text-align: right;
+    color: white;
+}
+
+.daytext {
+    padding-right: 3px;
+    font-family: 'viga', sans-serif;
+    font-size: small;
+}
+
+.title {
+    color: #35477d;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+a:link, a:visited {
+    color: #000;
+    outline: 0;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.sites img {
+    height: 30px;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.huskyleft img {
+    height: 35px;
+    width: auto;
+    float: left;
+    padding: 3px 0px 0px 8px; 
+}
+
+.huskyright img {
+    height: 35px;
+    width: auto;
+    float: right;
+    padding: 3px 8px 0px 0px;
+}
+
+input {
+    float: left;
+    border-radius: 45px;
+    width: 71px;
+    padding: 0px, 2px, 0px, 2px;
+    line-height: 0;
+    font-size: x-small;
+    background-color: #35477d;
+    border: 1.5px solid white;
+    color: white;
+    z-index: 1;
+    font-weight: 400;
+}
+
+ul {
+    font-size: x-small;
+    padding: 0px 0px 0px 2px; 
+    font-family: 'viga', sans-serif;
+    list-style-type: none;
+    text-align: left;
+}
+
+li:hover {
+    text-decoration: line-through;
+}
+
+.reload {
+    border-radius: 2em;
+    background-color: #35477d;
+    color: white;
+    font-family: 'viga', sans-serif;
+    font-size: x-small;
+    text-align: center;
+    transition: all 0.2s;
+    border-color: #656D78;
+}
+
+.reload:hover {
+    background-color: whitesmoke;
+    color: #35477d;
+}
