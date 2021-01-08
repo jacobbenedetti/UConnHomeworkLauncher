@@ -13,7 +13,7 @@ html, body {
     text-align: center;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 7px 0px;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
 .calendar {
@@ -34,14 +34,14 @@ html, body {
 
 .daytext {
     padding-right: 3px;
-    font-family: 'viga', sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: small;
 }
 
 .title {
     color: #35477d;
     text-align: center;
-    font-family: 'Bebas Neue', cursive;
+    font-family: Helvetica, sans-serif;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
@@ -95,7 +95,7 @@ input {
 ul {
     font-size: x-small;
     padding: 0px 0px 0px 2px; 
-    font-family: 'viga', sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     list-style-type: none;
     text-align: left;
 }
@@ -105,17 +105,23 @@ li:hover {
 }
 
 .reload {
-    border-radius: 2em;
-    background-color: #35477d;
+    width: 80px;
+    height: 25px;
+    border-radius: 25px;
+    background: #35477d;
     color: white;
-    font-family: 'viga', sans-serif;
-    font-size: x-small;
+    text-decoration: none;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     text-align: center;
     transition: all 0.2s;
-    border-color: #656D78;
+    text-decoration: none;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px;
 }
 
 .reload:hover {
-    background-color: whitesmoke;
+    background: whitesmoke;
     color: #35477d;
+    border: 2px solid #35477d;
 }
