@@ -1,7 +1,7 @@
 {
   "name": "Homework Launcher",
   "version": "1.0",
-  "description": "An extension that allows UConn students to easily manage a week long to-do list while giving quick access to frequently visited sites.",
+  "description": "An extension that allows UConn students to easily manage a week long to-do list while giving quick access to frequently used sites.",
   "content_security_policy": "default-src 'self'",
   "manifest_version": 2,
 
