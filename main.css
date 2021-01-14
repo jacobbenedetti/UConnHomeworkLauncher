@@ -123,3 +123,10 @@ li:hover {
     color: #35477d;
     border: 2px solid #35477d;
 }
+
+#moodle {
+    height: 33px;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
